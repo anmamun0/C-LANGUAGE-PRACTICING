@@ -12,7 +12,7 @@ int main(){
     switch(opa)
     {
         case '+':
-            printf("This was addition - %1.lf", a+b);
+            printf("This was addition - %.1lf", a+b);
             break;
         case '-':
             printf("This is substaction - %.1lf", a-b);
